@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #f4f4f4;
+  background-color: #FFE5DA;
+  /* #f4f4f4 */
 }
 .container {
   max-width: 800px;
@@ -14,9 +15,10 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-h1,
+h1,  
 h2 {
-  color: #007bff;
+  color: #565263; 
+  /* #007bff; */
 }
 .header {
   text-align: center;
@@ -29,7 +31,7 @@ h2 {
   font-size: 14px;
 }
 .contact a {
-  color: #007bff;
+  color: #D09D90;
   text-decoration: none;
 }
 .section {
@@ -37,7 +39,7 @@ h2 {
 }
 .section h2 {
   margin-bottom: 10px;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #565263;
   padding-bottom: 5px;
 }
 .item {
@@ -52,15 +54,29 @@ h2 {
   margin: 5px 0;
   font-size: 14px;
 }
+.item a { 
+  color: #D09D90;
+}
 .skills ul {
   list-style: none;
   padding: 0;
 }
 .skills ul li {
   display: inline-block;
-  background: #007bff;
+  background: #D09D90;
   color: #fff;
   padding: 5px 10px;
   margin: 5px 5px 5px 0;
   border-radius: 4px;
 }
+.nflogo {
+   max-width: 300px;
+}
+.footer {text-align: center;}
+
+
+/* --color-1: #000;  Black 
+--color-2: #D09D90;  Dark Peach     Alts: #E0B0A3
+--color-3: #121D35;  Midnight Blue  Alts: #142038
+--color-4: #FFFDFE;  White
+--color-5: #FEDBD2;  Light Peach    Alts: #FDDCCE */
