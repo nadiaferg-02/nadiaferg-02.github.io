@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+  body {
+    padding: 15px;
+  }
+
+  .section {
+    margin: 10px 0;
+  }
+
+  .section h2 {
+    font-size: 20px;
+  }
+
+  .item h3 {
+    font-size: 15px;
+  }
+
+  .item p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .nflogo {
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}

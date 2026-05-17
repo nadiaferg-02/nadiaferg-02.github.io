@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #FFE5DA;
+  background-color: #ffe5da;
   /* #f4f4f4 */
 }
 .container {
@@ -15,9 +15,9 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-h1,  
+h1,
 h2 {
-  color: #565263; 
+  color: #565263;
   /* #007bff; */
 }
 .header {
@@ -31,9 +31,39 @@ h2 {
   font-size: 14px;
 }
 .contact a {
-  color: #D09D90;
+  color: #d09d90;
   text-decoration: none;
 }
+
+.navbar {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #ffe5da;
+  padding: 12px 0;
+  border-radius: 4px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #565263;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
 .section {
   margin: 20px 0;
 }
@@ -54,8 +84,8 @@ h2 {
   margin: 5px 0;
   font-size: 14px;
 }
-.item a { 
-  color: #D09D90;
+.item a {
+  color: #d09d90;
 }
 .skills ul {
   list-style: none;
@@ -63,17 +93,18 @@ h2 {
 }
 .skills ul li {
   display: inline-block;
-  background: #D09D90;
+  background: #d09d90;
   color: #fff;
   padding: 5px 10px;
   margin: 5px 5px 5px 0;
   border-radius: 4px;
 }
 .nflogo {
-   max-width: 300px;
+  max-width: 300px;
 }
-.footer {text-align: center;}
-
+.footer {
+  text-align: center;
+}
 
 /* --color-1: #000;  Black 
 --color-2: #D09D90;  Dark Peach     Alts: #E0B0A3
